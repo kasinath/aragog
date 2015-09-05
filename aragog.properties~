@@ -1,0 +1,22 @@
+[settings]
+allowedDomains = ["www.yelp.com"]
+
+#seeds = ["http://www.yelp.com/biz/joes-falafel-los-angeles"]
+
+seeds = ['http://www.yelp.com/search?find_loc=Los+Angeles#find_desc', 'http://www.yelp.com/search?find_loc=New+York#find_desc', 'http://www.yelp.com/search?find_loc=Seattle#find_desc', 'http://www.yelp.com/search?find_loc=Los+Angeles#find_desc&start=100', 'http://www.yelp.com/search?find_loc=New+York#find_desc&start=100', 'http://www.yelp.com/search?find_loc=Seattle#find_desc&start=100', 'http://www.yelp.com/search?find_loc=Los+Angeles#find_desc&start=200', 'http://www.yelp.com/search?find_loc=New+York#find_desc&start=200', 'http://www.yelp.com/search?find_loc=Seattle#find_desc&start=200', 'http://www.yelp.com/search?find_loc=Los+Angeles#find_desc&start=300', 'http://www.yelp.com/search?find_loc=New+York#find_desc&start=300', 'http://www.yelp.com/search?find_loc=Seattle#find_desc&start=300', 'http://www.yelp.com/search?find_loc=Los+Angeles#find_desc&start=400', 'http://www.yelp.com/search?find_loc=New+York#find_desc&start=400', 'http://www.yelp.com/search?find_loc=Seattle#find_desc&start=400', 'http://www.yelp.com/search?find_loc=Los+Angeles#find_desc&start=500', 'http://www.yelp.com/search?find_loc=New+York#find_desc&start=500', 'http://www.yelp.com/search?find_loc=Seattle#find_desc&start=500', 'http://www.yelp.com/search?find_loc=Los+Angeles#find_desc&start=600', 'http://www.yelp.com/search?find_loc=New+York#find_desc&start=600', 'http://www.yelp.com/search?find_loc=Seattle#find_desc&start=600', 'http://www.yelp.com/search?find_loc=Los+Angeles#find_desc&start=700', 'http://www.yelp.com/search?find_loc=New+York#find_desc&start=700', 'http://www.yelp.com/search?find_loc=Seattle#find_desc&start=700', 'http://www.yelp.com/search?find_loc=Los+Angeles#find_desc&start=800', 'http://www.yelp.com/search?find_loc=New+York#find_desc&start=800', 'http://www.yelp.com/search?find_loc=Seattle#find_desc&start=800', 'http://www.yelp.com/search?find_loc=Los+Angeles#find_desc&start=900', 'http://www.yelp.com/search?find_loc=New+York#find_desc&start=900', 'http://www.yelp.com/search?find_loc=Seattle#find_desc&start=900']
+
+pagesToCrawl = 1000
+
+depthLimit = 0
+
+opDir=takeOutRestaurants
+
+opEncoding=
+
+name=aragog
+
+allowPattern=.*yelp.com/.*
+
+denyPattern=.*hl=.*
+
+
